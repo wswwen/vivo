@@ -57,7 +57,7 @@
 
 1. 计算信号部分的能量的均值：
 
-   $energe\_avg=\left(  \sum_{k=begin}^{k=end}{(x[k].real^2+x[k].imag^2)}\right)/(end-begin)$
+   $$energe\_avg=\left(  \sum_{k=begin}^{k=end}{(x[k].real^2+x[k].imag^2)}\right)/(end-begin)$$
 
 2. 将能量集中在实部，对于每一个输入的采样点 $k$ ，输出为：
 
